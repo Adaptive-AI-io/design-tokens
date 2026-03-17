@@ -1,0 +1,105 @@
+/*
+ * @adaptive-ai-io/design-tokens — Theme System
+ *
+ * 4 OKLCH color themes with tinted neutrals.
+ * Apply via data-theme attribute on <html>: data-theme="cold-purple"
+ *
+ * Neutral tinting engine: each neutral picks up the theme's hue
+ * at low chroma (0.02) for cohesive warm/cool paper tones.
+ */
+
+/* ═══════ Cold Purple ═══════ */
+[data-theme="cold-purple"] {
+  --brand-50:  oklch(97.56% 0.01 294);
+  --brand-100: oklch(95.46% 0.01 299);
+  --brand-200: oklch(91.49% 0.03 298);
+  --brand-300: oklch(84.76% 0.05 299);
+  --brand-400: oklch(76.95% 0.08 299);
+  --brand-500: oklch(66.14% 0.12 301);
+  --brand-600: oklch(58.78% 0.15 303);
+  --brand-700: oklch(52.72% 0.14 303);
+  --brand-800: oklch(46.46% 0.13 303);
+  --brand-900: oklch(40.88% 0.11 303);
+  --brand-950: oklch(30.70% 0.08 301);
+
+  --paper:     oklch(96% 0.015 300);
+  --cloud:     oklch(94.5% 0.02 300);
+  --ink:       oklch(16% 0.02 300);
+  --ink-muted: oklch(36% 0.02 300);
+  --stone:     oklch(58% 0.02 300);
+  --border:    oklch(86% 0.015 300);
+
+  --swatch: #9B6DD7;
+}
+
+/* ═══════ Half Baked (Teal) ═══════ */
+[data-theme="half-baked"] {
+  --brand-50:  oklch(97.84% 0.01 197);
+  --brand-100: oklch(94.19% 0.02 203);
+  --brand-200: oklch(88.59% 0.04 206);
+  --brand-300: oklch(76.99% 0.08 207);
+  --brand-400: oklch(70.35% 0.09 209);
+  --brand-500: oklch(61.57% 0.09 211);
+  --brand-600: oklch(53.51% 0.07 216);
+  --brand-700: oklch(46.64% 0.06 219);
+  --brand-800: oklch(41.55% 0.05 220);
+  --brand-900: oklch(37.55% 0.04 223);
+  --brand-950: oklch(28.25% 0.03 225);
+
+  --paper:     oklch(96% 0.015 210);
+  --cloud:     oklch(94.5% 0.02 210);
+  --ink:       oklch(16% 0.02 210);
+  --ink-muted: oklch(36% 0.02 210);
+  --stone:     oklch(58% 0.02 210);
+  --border:    oklch(86% 0.015 210);
+
+  --swatch: #6DB3C7;
+}
+
+/* ═══════ Apricot Peach ═══════ */
+[data-theme="apricot-peach"] {
+  --brand-50:  oklch(97.52% 0.01 61);
+  --brand-100: oklch(94.34% 0.03 61);
+  --brand-200: oklch(86.98% 0.07 56);
+  --brand-300: oklch(80.10% 0.11 52);
+  --brand-400: oklch(71.19% 0.16 44);
+  --brand-500: oklch(65.54% 0.19 39);
+  --brand-600: oklch(60.33% 0.20 35);
+  --brand-700: oklch(51.85% 0.18 33);
+  --brand-800: oklch(44.39% 0.15 31);
+  --brand-900: oklch(38.62% 0.12 31);
+  --brand-950: oklch(25.30% 0.08 29);
+
+  --paper:     oklch(96% 0.015 50);
+  --cloud:     oklch(94.5% 0.02 50);
+  --ink:       oklch(16% 0.02 50);
+  --ink-muted: oklch(36% 0.02 50);
+  --stone:     oklch(58% 0.02 50);
+  --border:    oklch(86% 0.015 50);
+
+  --swatch: #D4896A;
+}
+
+/* ═══════ Evergreen (Sage) ═══════ */
+[data-theme="evergreen"] {
+  --brand-50:  oklch(97.8% 0.01 150);
+  --brand-100: oklch(94.5% 0.02 150);
+  --brand-200: oklch(89.5% 0.04 150);
+  --brand-300: oklch(82% 0.07 150);
+  --brand-400: oklch(73% 0.09 150);
+  --brand-500: oklch(62% 0.10 150);
+  --brand-600: oklch(53% 0.09 150);
+  --brand-700: oklch(45.5% 0.08 150);
+  --brand-800: oklch(39.5% 0.07 150);
+  --brand-900: oklch(34.5% 0.06 150);
+  --brand-950: oklch(25% 0.05 150);
+
+  --paper:     oklch(96% 0.015 150);
+  --cloud:     oklch(94.5% 0.02 150);
+  --ink:       oklch(16% 0.02 150);
+  --ink-muted: oklch(36% 0.02 150);
+  --stone:     oklch(58% 0.02 150);
+  --border:    oklch(86% 0.015 150);
+
+  --swatch: #5A9A6B;
+}

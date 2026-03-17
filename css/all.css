@@ -1,0 +1,10 @@
+/*
+ * @adaptive-ai-io/design-tokens — All-in-one import
+ *
+ * Usage: @import '@adaptive-ai-io/design-tokens/css/all';
+ * Or:    <link rel="stylesheet" href="...design-tokens/css/all.css">
+ */
+
+@import './themes.css';
+@import './tokens.css';
+@import './typography.css';
