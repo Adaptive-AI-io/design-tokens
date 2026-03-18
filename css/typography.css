@@ -47,16 +47,13 @@ body {
 }
 
 /* ── Heading defaults ── */
+/* Only font-family and line-height. No font-size — components set their
+   own sizes explicitly, and bare element rules override Tailwind classes. */
 h1, h2, h3 {
   font-family: var(--font-display);
   line-height: var(--leading-tight);
   letter-spacing: var(--tracking-tight);
-  color: var(--ink);
 }
-
-h1 { font-size: clamp(var(--text-4xl), 5vw, var(--text-6xl)); font-weight: 800; }
-h2 { font-size: clamp(var(--text-3xl), 4vw, var(--text-5xl)); font-weight: 700; }
-h3 { font-size: clamp(var(--text-2xl), 3vw, var(--text-4xl)); font-weight: 700; }
 
 /* ── Eyebrow/label pattern ── */
 .eyebrow {
