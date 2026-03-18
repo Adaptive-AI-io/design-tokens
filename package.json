@@ -1,6 +1,6 @@
 {
   "name": "@adaptive-ai-io/design-tokens",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared design tokens, OKLCH theme system, and Design D (Organic Warm) aesthetic for the Adaptive AI ecosystem",
   "license": "MIT",
   "type": "module",
