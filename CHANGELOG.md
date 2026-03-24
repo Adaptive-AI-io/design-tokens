@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-03-24
+### Added
+- Shared app-shell CSS entrypoint (`css/app-shell.css`) with the cold-purple shadcn/sidebar semantic bridge and chart tokens
+- Cold-purple `--border` baseline on `themes.css` root for shared shell consumers
+
 ## [0.1.1] - 2026-03-17
 ### Added
 - Organic curved section divider utility classes (`.curve-top`, `.curve-bottom`) in tokens.css

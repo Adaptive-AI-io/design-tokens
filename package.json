@@ -1,6 +1,6 @@
 {
   "name": "@adaptive-ai-io/design-tokens",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Shared design tokens, OKLCH theme system, and Design D (Organic Warm) aesthetic for the Adaptive AI ecosystem",
   "license": "MIT",
   "type": "module",
@@ -9,6 +9,7 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
+    "./css/app-shell": "./css/app-shell.css",
     "./css/themes": "./css/themes.css",
     "./css/tokens": "./css/tokens.css",
     "./css/typography": "./css/typography.css",

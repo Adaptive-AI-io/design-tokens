@@ -27,6 +27,7 @@
   --ink:       oklch(16% 0.02 300);
   --ink-muted: oklch(36% 0.02 300);
   --stone:     oklch(58% 0.02 300);
+  --border:    oklch(86% 0.015 300);
 
   --swatch: #9B6DD7;
 }
