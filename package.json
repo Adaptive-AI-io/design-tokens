@@ -1,5 +1,5 @@
 {
-  "name": "@adaptive-ai-io/design-tokens",
+  "name": "@fennecorelabs/design-tokens",
   "version": "0.2.0",
   "description": "Shared design tokens, OKLCH theme system, and Design D (Organic Warm) aesthetic for the Adaptive AI ecosystem",
   "license": "MIT",
@@ -56,9 +56,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adaptive-ai-io/design-tokens.git"
+    "url": "https://github.com/fennecorelabs/design-tokens.git"
   },
   "dependencies": {
-    "@adaptive-ai-io/design-tokens": "^0.1.1"
+    "@fennecorelabs/design-tokens": "^0.1.1"
   }
 }

@@ -1,9 +1,9 @@
 /**
- * @adaptive-ai-io/design-tokens — Tailwind 4 Preset
+ * @fennecorelabs/design-tokens — Tailwind 4 Preset
  *
  * Maps CSS custom properties to Tailwind utility classes.
  * Usage in tailwind.config.ts:
- *   import { adaptivePreset } from '@adaptive-ai-io/design-tokens/tailwind/preset'
+ *   import { adaptivePreset } from '@fennecorelabs/design-tokens/tailwind/preset'
  *   export default { presets: [adaptivePreset] }
  */
 
